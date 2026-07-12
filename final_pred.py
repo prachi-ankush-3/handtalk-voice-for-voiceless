@@ -14,7 +14,6 @@ import enchant
 ddd=enchant.Dict("en-US")
 hd = HandDetector(maxHands=1)
 hd2 = HandDetector(maxHands=1)
-import customtkinter as ctk
 from PIL import Image, ImageTk
 
 offset=29
@@ -32,7 +31,16 @@ ctk.set_default_color_theme("blue")
 class Application:
 
     def __init__(self):
-        self.vs = cv2.VideoCapture(0)
+        import streamlit as st
+from PIL import Image
+import numpy as np
+import cv2
+
+img = st.camera_input("Show your hand")
+
+if img is not None:
+    image = Image.open(img)
+    frame = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
         self.current_image = None
         self.model = load_model('cnn8grps_rad1_model.h5')
         self.speak_engine=pyttsx3.init()
