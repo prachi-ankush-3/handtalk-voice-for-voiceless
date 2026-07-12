@@ -3,4 +3,5 @@ opencv-python-headless
 numpy
 pillow
 tensorflow==2.15.0
-keras
+keras==2.15.0
+pyttsx3
