@@ -2,3 +2,4 @@ libgl1
 libglib2.0-0t64
 libenchant-2-2
 libtk8.6
+espeak-ng
