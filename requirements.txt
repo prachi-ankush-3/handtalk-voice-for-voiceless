@@ -1,0 +1,9 @@
+opencv-python-headless
+streamlit
+numpy
+tensorflow
+keras
+cvzone
+mediapipe
+pyenchant
+pillow
