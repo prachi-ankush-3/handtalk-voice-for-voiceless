@@ -7,3 +7,4 @@ keras==2.15.0
 pyttsx3
 cvzone
 pyenchant
+mediapipe
