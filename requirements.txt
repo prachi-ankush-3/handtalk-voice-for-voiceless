@@ -8,3 +8,4 @@ pyttsx3
 cvzone
 pyenchant
 mediapipe==0.10.14
+customtkinter
