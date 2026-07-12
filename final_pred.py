@@ -6,6 +6,8 @@ import cv2
 
 import os, sys
 import traceback
+import customtkinter as ctk
+
 import pyttsx3
 from keras.models import load_model
 from cvzone.HandTrackingModule import HandDetector
