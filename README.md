@@ -151,36 +151,24 @@ Recognized Alphabet
 
 ## 📸 Output Screenshots
 
-> Add your screenshots here.
-
 ### 🏠 Main Interface
 
 <p align="center">
-<img src="images/home.png" width="900">
+  <img src="./Outputs/Home.png" alt="Main Interface" width="900"/>
 </p>
 
 ---
 
-### ✋ Gesture Detection
+### 🤟 Real-Time Sign Recognition
 
 <p align="center">
-<img src="images/detection.png" width="900">
+  <img src="./Outputs/h.png" alt="Prediction H" width="32%"/>
+  <img src="./Outputs/l.png" alt="Prediction L" width="32%"/>
+  <img src="./Outputs/o.png" alt="Prediction O" width="32%"/>
 </p>
 
----
-
-### 🔤 Alphabet Prediction
-
 <p align="center">
-<img src="images/prediction.png" width="900">
-</p>
-
----
-
-### 🔊 Speech Output
-
-<p align="center">
-<img src="images/output.png" width="900">
+  <b>Sequential Predictions:</b> H → L → O
 </p>
 
 ---
