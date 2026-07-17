@@ -203,8 +203,6 @@ Recognized Alphabet
 
 ## 🎯 Future Enhancements
 
-- ✅ Word and sentence prediction
-- ✅ Support for complete sign language vocabulary
 - ✅ Improved CNN accuracy
 - ✅ Mobile application
 - ✅ Multiple language support
