@@ -33,21 +33,18 @@ ctk.set_default_color_theme("blue")
 class Application:
 
     def __init__(self):
-class Application:
-
-    def __init__(self):
         self.vs = cv2.VideoCapture(0)
         self.current_image = None
         self.model = load_model("cnn8grps_rad1_model.h5")
-        self.speak_engine=pyttsx3.init()
-        self.speak_engine.setProperty("rate",100)
-        voices=self.speak_engine.getProperty("voices")
-        self.speak_engine.setProperty("voice",voices[0].id)
+        self.speak_engine = pyttsx3.init()
+        self.speak_engine.setProperty("rate", 100)
+        voices = self.speak_engine.getProperty("voices")
+        self.speak_engine.setProperty("voice", voices[0].id)
 
         self.ct = {}
         self.ct['blank'] = 0
         self.blank_flag = 0
-        self.space_flag=False
+        self.space_flag = False
         self.next_flag=True
         self.prev_char=""
         self.count=-1
